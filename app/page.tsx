@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           I'm&nbsp;
-          <code className={styles.code}>Joakim Johansson</code>
+          <code className={styles.code}>Joakim Johansson</code>!
         </p>
         <div>
           <a
