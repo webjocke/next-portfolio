@@ -180,9 +180,9 @@ export default function Home() {
                 {/* Skill levels */}
                 <div>
                     <h3 className="text-4xl font-mark text-center lg:text-left mb-12">Experience</h3>
-                    <p className="font-mark mb-6 text-lg">Striving to be very broad in the tech world by touching everything from frontend, backend, serverless, DNS, APIs, architecture system design, smart contracts, video/image processing, embedded electronics and IOT.</p>
-                    <p className="my-4">If the technoligy you need help with doesn't exist in this chart, don't worry, I'm always eager to learn new technoligies to enhance my skillset.</p>
-                    <p className="my-4">I haven't included all the technoligies I have used in this chart of couse. Reach out with your required skillset and we will see which skills are overlapping.</p>
+                    <p className="font-mark mb-6 text-lg">As a versatile full stack web developer, my skills spans across various domains, including frontend and backend development, serverless computing, DNS management, API integration, system architecture design, multimedia processing, and IoT/embedded electronics.</p>
+                    <p className="my-4">If the technology you're seeking assistance with isn't listed here, don't worry, I'm always eager to expand my knowledge and embrace new technologies to enrich my skill set.</p>
+                    <p className="my-4">Of course, this list doesn't include every technology I've worked with. Feel free to reach out and discuss your specific requirements, and together, we can identify the overlapping skills that best suit your project's needs.</p>
                 </div>
                 <Bubbles data={json} />
             </div>
@@ -199,39 +199,38 @@ export default function Home() {
                             <h3 className="text-2xl font-mark mb-2">E-Commerce System</h3>
                             <ul className="px-4 py-2">
                                 <li className="mb-1">🌍 Runs serverless on the edge with automatic scaling to any workload</li>
-                                <li className="mb-1">🚀 Uses all modern technoligies and is built mostly from scratch</li>
-                                <li className="mb-1">📄 WYSIWYG editor right on the customer facing pages for easy and fast content management for admin</li>
+                                <li className="mb-1">🚀 Uses all modern technologies and is built mostly from scratch</li>
+                                <li className="mb-1">📄 WYSIWYG editor right on the customer-facing pages for easy and fast content management for admin</li>
                             </ul>
                             <p className="mt-4 text-xl font-mark">Technologies used:</p>
                             <ul className="py-2">
                                 <li className="mx-0 my-3">
-                                    <span className="text-teal-500 font-black">Frontend</span>: HTML/CSS/Javascript, <Link href="https://getmdl.io/" className="hover:underline">Material Design</Link>, <Link href="https://github.com/snabbdom/snabbdom" className="hover:underline">snabbdom</Link>, <Link href="https://www.chartjs.org/docs/latest/" className="hover:underline">Chart.js</Link>, <Link href="https://www.npmjs.com/package/exceljs" className="hover:underline">Excel.js</Link>, <Link href="https://easepick.com/" className="hover:underline">Easepick</Link>, <Link href="https://printjs.crabbly.com/" className="hover:underline">Print.js</Link>, <Link href="https://fonts.google.com/" className="hover:underline">Google Fonts</Link>
+                                    <span className="text-teal-500 font-black">Frontend</span>: HTML/CSS/Javascript, <Link href="https://getmdl.io/" target="_blank" className="hover:underline">Material Design</Link>, <Link href="https://github.com/snabbdom/snabbdom" target="_blank" className="hover:underline">snabbdom</Link>, <Link href="https://www.chartjs.org/docs/latest/" target="_blank" className="hover:underline">Chart.js</Link>, <Link href="https://www.npmjs.com/package/exceljs" target="_blank" className="hover:underline">Excel.js</Link>, <Link href="https://easepick.com/" target="_blank" className="hover:underline">Easepick</Link>, <Link href="https://printjs.crabbly.com/" target="_blank" className="hover:underline">Print.js</Link>, <Link href="https://fonts.google.com/" target="_blank" className="hover:underline">Google Fonts</Link>
                                 </li>
                                 <li className="mx-0 my-3">
-                                    <span className="text-blue-500 font-black">Backend Compute</span>: <Link href="https://workers.cloudflare.com/" className="hover:underline">Cloudflare Workers</Link>
+                                    <span className="text-blue-500 font-black">Backend Compute</span>: <Link href="https://workers.cloudflare.com/" target="_blank" className="hover:underline">Cloudflare Workers</Link>
                                 </li>
                                 <li className="mx-0 my-3">
-                                    <span className="text-red-500 font-black">Data storage</span>: <Link href="https://www.cloudflare.com/products/durable-objects/" className="hover:underline">Cloudflare Durable Objects</Link>, <Link href="https://www.cloudflare.com/products/workers-kv/" className="hover:underline">Cloudflare KV</Link>
+                                    <span className="text-red-500 font-black">Data storage</span>: <Link href="https://www.cloudflare.com/products/durable-objects/" target="_blank" className="hover:underline">Cloudflare Durable Objects</Link>, <Link href="https://www.cloudflare.com/products/workers-kv/" target="_blank" className="hover:underline">Cloudflare KV</Link>
                                 </li>
                                 <li className="mx-0 my-3">
-                                    <span className="text-green-500 font-black">Hosting</span>: <Link href="https://pages.cloudflare.com/" className="hover:underline">Cloudflare Pages</Link>, <Link href="https://www.cloudflare.com/cdn/" className="hover:underline">Cloudflare CDN</Link>
+                                    <span className="text-green-500 font-black">Hosting</span>: <Link href="https://pages.cloudflare.com/" target="_blank" className="hover:underline">Cloudflare Pages</Link>, <Link href="https://www.cloudflare.com/cdn/" target="_blank" className="hover:underline">Cloudflare CDN</Link>
                                 </li>
                                 <li className="mx-0 my-3">
-                                    <span className="text-pink-500 font-black">Other</span>: <Link href="https://algolia.com" className="hover:underline">Algolia</Link> (search), <Link href="https://klarna.com" className="hover:underline">Klarna</Link> (payment), <Link href="https://algolia.com" className="hover:underline">Shipmondo</Link> (shipping), <Link href="https://sendinblue.com" className="hover:underline">Sendinblue</Link> (email), <Link href="https://www.cloudflare.com/products/cloudflare-images/" className="hover:underline">Cloudflare Images</Link>, <Link href="https://www.linkpreview.net/" className="hover:underline">LinkPreview</Link>, <Link href="https://github.com" className="hover:underline">Github</Link>, <Link href="https://figma.com" className="hover:underline">Figma</Link>, <Link href="https://postman.com" className="hover:underline">Postman</Link>, <Link href="https://monday.com" className="hover:underline">Monday.com</Link>, <Link href="https://workspace.google.com/" className="hover:underline">G Suite</Link>
+                                    <span className="text-pink-500 font-black">Other</span>: <Link href="https://algolia.com" target="_blank" className="hover:underline">Algolia</Link> (search), <Link href="https://klarna.com" target="_blank" className="hover:underline">Klarna</Link> (payment), <Link href="https://algolia.com" target="_blank" className="hover:underline">Shipmondo</Link> (shipping), <Link href="https://sendinblue.com" target="_blank" className="hover:underline">Sendinblue</Link> (email), <Link href="https://www.cloudflare.com/products/cloudflare-images/" target="_blank" className="hover:underline">Cloudflare Images</Link>, <Link href="https://www.linkpreview.net/" target="_blank" className="hover:underline">LinkPreview</Link>, <Link href="https://github.com" target="_blank" className="hover:underline">Github</Link>, <Link href="https://figma.com" target="_blank" className="hover:underline">Figma</Link>, <Link href="https://postman.com" target="_blank" className="hover:underline">Postman</Link>, <Link href="https://monday.com" target="_blank" className="hover:underline">Monday.com</Link>, <Link href="https://workspace.google.com/" target="_blank" className="hover:underline">G Suite</Link>
                                 </li>
                             </ul>
                             <p className="pt-4">To see the system in action, check out <Link href="https://sizable.se" className="hover:underline">sizable.se</Link>. Feel free to reach out if you want to see the source code for anything, I'd be happy to show you.</p>
-                            {/* <Link href="/e-commerce-system" className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">Show more about the project</Link> */}
                         </div>
                     </div>
                     <div id="project-sizable" className="mt-32 lg:grid lg:grid-cols-[1fr_2fr] lg:gap-8">
                         <div>
-                            <Link href="https://sizable.se"><img src="/sizable.png" alt="logo" className="max-w-128 mx-auto mb-2" /></Link>
+                            <Link href="https://sizable.se" target="_blank"><img src="/sizable.png" alt="logo" className="max-w-128 mx-auto mb-2" /></Link>
                             <p className="italic mb-4 text-sm">Uses the custom <a href="/#project-e-commerce-system" className="underline">sizable e-commerce system</a>.</p>
                         </div>
                         <div>
-                            <Link href="https://sizable.se"><h3 className="text-2xl font-mark mb-2">Sizable Electronics Webstore</h3></Link>
-                            <p>Enables fast and convenient access to electronics for hobbyist and professionals in Sweden. 1-2 days shipping with same day dispatch.</p>
+                            <Link href="https://sizable.se" target="_blank"><h3 className="text-2xl font-mark mb-2">Sizable Electronics Webstore</h3></Link>
+                            <p>Enables fast and convenient access to electronics for hobbyists and professionals in Sweden. 1-2 days shipping with same-day dispatch.</p>
                             <div className="my-4 border border-gray-700 border-solid px-4 py-2 grid grid-cols-3">
                                 <div>
                                     <p className="text-green-500 text-xs text-center"><span className="font-mark text-2xl">4.6</span>/5</p>
@@ -269,7 +268,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <Link href="https://sizable.se" type="button" className="text-white mt-0 bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
+                            <Link href="https://sizable.se" target="_blank" type="button" className="text-white mt-0 bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
                                 Link to the store
                             </Link>
                         </div>
@@ -280,13 +279,13 @@ export default function Home() {
                 <div className="-z-1 absolute top-0 h-full left-0 bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.5)_inset] w-[200vw] -rotate-1 -translate-x-1/4">
                 </div>
                 <div className="z-10 relative max-w-xl box-border py-20 mx-auto px-3 xl:px-0">
-                    <h2 className="text-4xl font-mark mb-6 text-black">My story and business adventure</h2>
-                    <p className="my-3 text-gray-600 subpixel-antialiased">After a tech heavy school program and 2 years in university I decided to purshue my  busniess idea and start building my own e-commerce system. At this point I had already been selling products on the site <a href="https://tradera.com">tradera.com</a> for multiple years and already knew my customer base good enough to take the next step.</p>
-                    <p className="my-3 text-gray-600">With the needed software developing skills under my belt I started building an e-commerce system from scratch. It took some time and went though a few itirations. At the start the whole thing was build with node.js and native javascript for the frontend, everything hosted on GCP appengine and datastore.</p>
-                    <p className="my-3 text-gray-600">After a lot of considurations and some big improvments from another cloud provider I decided to switch the whole operation over to Cloudflare. Their cutting edge (almost) infinitable scalable edge compute platform called Workers with their Durable Objects and KV services made it possible for me to switch over my whole stack to them and I have never looked back afterwards.</p>
-                    <p className="my-3 text-gray-600">During the whole development I have been running the store alongside developing and using it almost like a test case to constantly see whats needed and what should be priorited. Being your own customer is the best way to know what's needed or missing your know.</p>
-                    <p className="my-3 text-gray-600">Today the store system is fairly mature and have most of the features a store owner requires to run a store. It's currently running very smoothly and I ship out order every day with little to no time needed to spend on it, 80-90% passivily.</p>
-                    <p className="my-3 text-gray-600">I think the future has potential for the e-commerce system and the store but it's important to take a step back and look at the whole picture once a while.</p>
+                    <h2 className="text-4xl font-mark mb-6 text-black">My Journey and Entrepreneurial Venture</h2>
+                    <p className="my-3 text-gray-600 subpixel-antialiased">After completing a technology-intensive school program and spending two years at university, I decided to pursue my business idea by building my own e-commerce platform. Having sold products on <a href="https://tradera.com" target="_blank">tradera.com</a> for several years, I was well-acquainted with my customer base and confident in taking the next step.</p>
+                    <p className="my-3 text-gray-600">Armed with the requisite software development skills, I began constructing an e-commerce system from the ground up. The process involved several iterations, initially using Node.js and native JavaScript for frontend development, with the platform hosted on Google Cloud Platform's App Engine and Datastore.</p>
+                    <p className="my-3 text-gray-600">After careful consideration and witnessing significant improvements from another cloud provider, I decided to migrate the entire operation to Cloudflare. Their state-of-the-art, highly scalable edge computing platform—Workers, along with their Durable Objects and KV services—allowed me to seamlessly transition my entire stack, and I haven't looked back since.</p>
+                    <p className="my-3 text-gray-600">Throughout the development process, I managed the <Link href="https://tradera.com" target="_blank">Sizable</Link> store alongside its creation, using it as a test case to continually assess priorities and requirements. Being my own customer proved invaluable in identifying essential features and addressing gaps in the system.</p>
+                    <p className="my-3 text-gray-600">Today, the e-commerce platform has matured significantly, offering most of the functionalities store owners need for seamless operations. The system runs smoothly, allowing me to process orders daily with minimal effort, achieving 80-90% passivity.</p>
+                    <p className="my-3 text-gray-600">While I believe the e-commerce platform and the store hold great potential for the future, it's crucial to periodically step back and evaluate the bigger picture to ensure continued success in both business and life.</p>
                 </div>
             </div>
             <div className="max-w-xl lg:max-w-4xl box-border pt-20 mx-auto px-4 xl:px-0">
@@ -341,10 +340,10 @@ export default function Home() {
                 <a href="mailto:me@joakimjohansson.se?subject=Contact through joakimjohansson.se" className="text-blue-500 underline justify-self-center text-lg font-mark">Contact me</a>
             </div>
             <div className="max-w-xl box-border pt-16 pb-8 mx-auto px-4 xl:px-0">
-                <p className="text-center mb-8">Thank you for checking out my portfolio, don’t hesitate reaching out if you have any questions or are interested in hiring me.</p>
+                <p className="text-center mb-8">Thank you for checking out my portfolio, don’t hesitate to reach out if you have any questions or are interested in hiring me.</p>
                 <div className="grid grid-flow-col place-content-center gap-6 mb-8">
-                    <a href="https://github.com/webjocke"><img src="/github.png" alt="logo" className="w-10 mx-auto" /></a>
-                    <a href="https://www.linkedin.com/in/joakim-johansson-49754075"><img src="/linkedin.png" alt="logo" className="w-10 mx-auto" /></a>
+                    <Link href="https://github.com/webjocke" target="_blank"><img src="/github.png" alt="logo" className="w-10 mx-auto" /></Link>
+                    <Link href="https://www.linkedin.com/in/joakim-johansson-49754075" target="_blank"><img src="/linkedin.png" alt="logo" className="w-10 mx-auto" /></Link>
                 </div>
                 <p className="text-center">©2023 joakimjohansson.se</p>
             </div>
